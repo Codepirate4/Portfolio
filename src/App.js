@@ -14,7 +14,7 @@ class App extends Component{
         <div>
         
                 <Layout>
-                <Header className="header-color" title="My Portfolio" scroll>
+                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
                     <Navigation>
                         <Link to="/Resume">Resume</Link>
                         <Link to="/AboutMe"> AboutMe</Link>
