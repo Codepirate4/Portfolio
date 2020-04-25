@@ -14,7 +14,7 @@ class App extends Component{
         <div>
         
                 <Layout>
-                <Header className="header-color" title="My Portfolio" scroll>
+                <Header scroll>
                     <Navigation>
                         <Link to="/Resume">Resume</Link>
                         <Link to="/AboutMe"> AboutMe</Link>
@@ -22,7 +22,7 @@ class App extends Component{
                         <Link to="/Projects">Projects</Link>
                     </Navigation>
                 </Header>
-                    <Drawer title="MyPortfolio">
+                    <Drawer >
                         <Navigation>
                             <Link to="/Resume">Resume</Link>
                             <Link to="/AboutMe"> AboutMe</Link>
