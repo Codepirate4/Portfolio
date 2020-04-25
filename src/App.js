@@ -3,6 +3,7 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 import './App.css';
 import Main from './components/Main.js';
 import {Link} from 'react-router-dom'
+import LandingPage from './components/LandingPage';
 
 
 
@@ -32,7 +33,7 @@ class App extends Component{
                     </Drawer>
                     <Content>
                         <h1>hjdsfhksdjfhdjfhjd</h1>
-                        <Main/>               
+                        <LandingPage/>               
                     </Content>
                 </Layout>
          
