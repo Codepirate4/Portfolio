@@ -32,7 +32,7 @@ class App extends Component{
                         </Navigation>
                     </Drawer>
                     <Content>
-                        <h1>1</h1>
+                        <h1>2</h1>
                         <Main/>               
                     </Content>
                 </Layout>
