@@ -10,7 +10,7 @@ import Projects from './Projects.js'
 
 const Main= () =>(
     <Switch>
-        <Route exact path='/Portfolio' component={LandingPage}>
+        <Route exact path='/' component={LandingPage}>
 
         </Route>
         <Route path='/AboutMe' component={AboutMe}></Route>
