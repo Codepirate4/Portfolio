@@ -22,7 +22,7 @@ class App extends Component{
                         <Link to="/Projects">Projects</Link>
                     </Navigation>
                 </Header>
-                    <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+                    <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/Portfolio">MyPortfolio</Link>}>
                         <Navigation>
                             <Link to="/Resume">Resume</Link>
                             <Link to="/AboutMe"> AboutMe</Link>
