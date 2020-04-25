@@ -10,11 +10,11 @@ import Projects from './Projects.js'
 
 const Main= () =>(
     <Switch>
-        <Route exact path='/' component={LandingPage}></Route>
-        <Route path='/AboutMe' component={AboutMe}></Route>
-        <Route path='/Resume' component={Resume}></Route>
-        <Route path='/Projects' component={Projects}></Route>
-        <Route path='/Contact' component={Contact}></Route>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={LandingPage}></Route>
+        <Route exact path={process.env.PUBLIC_URL +'/AboutMe'} component={AboutMe}></Route>
+        <Route exact path={process.env.PUBLIC_URL +'/Resume'} component={Resume}></Route>
+        <Route exact path={process.env.PUBLIC_URL +'/Projects'} component={Projects}></Route>
+        <Route exact path={process.env.PUBLIC_URL +'/Contact'} component={Contact}></Route>
     </Switch>
 )
 
