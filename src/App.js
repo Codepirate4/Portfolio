@@ -15,7 +15,7 @@ class App extends Component{
         <div>
         
                 <Layout>
-                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/LandingPage">MyPortfolio</Link>} scroll>
+                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
                     <Navigation>
                         <Link to="/Resume">Resume</Link>
                         <Link to="/AboutMe"> AboutMe</Link>
@@ -23,7 +23,7 @@ class App extends Component{
                         <Link to="/Projects">Projects</Link>
                     </Navigation>
                 </Header>
-                    <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/LandingPage">MyPortfolio</Link>}>
+                    <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
                         <Navigation>
                             <Link to="/Resume">Resume</Link>
                             <Link to="/AboutMe"> AboutMe</Link>
@@ -32,8 +32,8 @@ class App extends Component{
                         </Navigation>
                     </Drawer>
                     <Content>
-                        <h1>hjdsfhksdjfhdjfhjd</h1>
-                        <LandingPage/>               
+                        <h1>1</h1>
+                        <Main/>               
                     </Content>
                 </Layout>
          
