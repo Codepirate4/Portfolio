@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from 'react-mdl'
-import avatar from './assets/avatar.png';
+
 
 import ParticlesContainer from './ParticlesContainer';
 import { BrowserRouter as Router } from "react-router-dom";

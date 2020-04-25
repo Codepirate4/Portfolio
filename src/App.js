@@ -31,6 +31,7 @@ class App extends Component{
                         </Navigation>
                     </Drawer>
                     <Content>
+                        <h1>hjdsfhksdjfhdjfhjd</h1>
                         <Main/>               
                     </Content>
                 </Layout>
